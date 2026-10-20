@@ -1,8 +1,11 @@
-site_name: Personal Portfolio
+site_name: Maia-Eve Medina - Bioinformatics Portfolio
 
 theme:
   name: material
   language: en
+  palette: 
+      primary: pink
+      accent: purple
   features:
     - content.tooltips
     - navigation.instant
@@ -33,8 +36,9 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: 
+  - About Me: 
     - index.md
 
   - Experience:
     -  Unix & Genomics: experience/Unix_and_Genomics.md
+    -  Your Experience: experience/Your_Experience.md
